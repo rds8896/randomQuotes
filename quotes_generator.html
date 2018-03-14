@@ -1,0 +1,19 @@
+<html>
+    <head>
+       <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+       <link rel="stylesheet" href="quotes.css">
+               
+    </head>
+    <body>
+       <div class="random">Random Quote Generator</div>
+        <div class="quotes_display" id="quote_display">
+            <div class="quote"><i class="fas fa-quote-left"></i><h3 id="online_quote"></h3><i class="fas fa-quote-right"></i><h5 id="author"></h5></div>
+            <div class="quote_buttons">
+                <a class="twitter" onclick=twitterQuote()><i class="fab fa-twitter"></i> Twitter</a>
+                <a class="facebook"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a class="next_quote" onclick=nextQuote()><i class="far fa-hand-point-right"></i> Next Quote</a>
+            </div>
+        </div>
+        <script src = quotes.js></script>
+    </body>
+</html>
