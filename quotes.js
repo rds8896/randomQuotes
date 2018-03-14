@@ -107,7 +107,7 @@
     function facebookQuote(){
          var generatedQuote = document.getElementById('online_quote').innerHTML;
       var generatedQuoteAuthor = document.getElementById('author').innerHTML;  
-        var fbShare = ' https://www.facebook.com/sharer/sharer.php?' + encodeURIComponent(generatedQuote) + ' By ' +encodeURIComponent(generatedQuoteAuthor) ;
+        var fbShare = 'http://www.facebook.com/sharer.php?u=https://github.com/rds8896/randomQuotes&quote=' + encodeURIComponent(generatedQuote) + ' By ' +encodeURIComponent(generatedQuoteAuthor) ;
        window.open(fbShare);
     }
     getQuote();
