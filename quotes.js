@@ -77,8 +77,8 @@
                     {
                         q.style.fontSize = 20;
                     }
-                q.innerHTML = data.quote;
-                a.innerHTML = data.author;
+                q.textContent = data.quote;
+                a.textContent = data.author;
             })
             .catch(function () {
               console.log("An error occurred");
